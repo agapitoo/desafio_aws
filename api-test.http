@@ -1,0 +1,37 @@
+POST http://localhost:3000/api/students
+Content-Type: application/json
+
+{
+    "nome": "João Silvaaaaa",
+    "idade": 20,
+    "nota_primeiro_semestre": 8.5,
+    "nota_segundo_semestre": 7.9,
+    "nome_professor": "Prof. Carlos",
+    "numero_sala": 101
+}
+
+####
+GET http://localhost:3000/api/students
+
+###
+GET http://localhost:3000/api/students/66d79323f12e49b8835468fa
+
+###
+
+PUT http://localhost:3000/api/students/66d7b10ec72be2aaacab4853
+Content-Type: application/json
+
+{
+    "nome": "Maria Oliveira",
+    "idade": 22,
+    "nota_primeiro_semestre": 9.2,
+    "nota_segundo_semestre": 8.8,
+    "nome_professor": "Prof. Fernanda",
+    "numero_sala": 102
+}
+####
+
+
+DELETE http://localhost:3000/api/students/66d78e41748e54b2a5e69ce1
+
+
